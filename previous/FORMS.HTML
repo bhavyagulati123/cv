@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<!-- SHORTCUT- move the line :alt+downkey -->
+
+<body>
+    <h1>my contact detail</h1>
+    <p>Address:B-94</p>
+    <p>Number:9311796190</p>
+    <p>Email:bhavyagulati41@gmail.com</p>
+    <h2>This is HTML Forms Tutorial</h2>
+    <form action="mailto:bhavyagulati41@gmail.com" enctype="text/plain" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="Role">Role:</label>
+            <input type="text" name="myrole" id="Role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="passward">Password:</label>
+            <input type="password" name="mypassward" id="passward">
+        </div>
+        <br>
+        <hr>
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="mygender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+            </select>
+            <!--if name is same then u can only select one the radio-->
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="mygender" value="M"> Female<input type="radio" name="mygender" value="F">
+            Others<input type="radio" name="mygender" value="Others">
+            <!--if name is same then u can only select one the radio-->
+        </div>
+        <hr>
+        <div>
+            Write in area: <br><textarea name="myarea" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus:</label>
+            <input type="number" name="mynumber" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date: </label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="eligibility">Are you eligible: </label>
+            <input type="checkbox" name="myeligibilty" id="eligibility" value="E" checked>
+            <!--checked-->
+        </div>
+        <br>
+        <div>
+            <label for="number">mobile number</label>
+            <input type="tel" name="mytek=l" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="vehicle">Car</label>
+            <select name="mycar" id="vehicle">
+                <option value="Mercedes" selected>Mercedes</option>
+                <!--selected-->
+                <option value="swift">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="disease">Problem</label>
+            <select name="mydisease" id="disease">
+                <option value="cough">Cough</option>
+                <option value="covid">Covid</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
