@@ -1,7 +1,9 @@
 body {
     background-color: #def2f1;
 }
-
+img:hover{
+    background-color: #fc894d;
+}
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -12,7 +14,44 @@ hr {
 }
 h1{
     color: #3aafa9;
+    
 }
 h3{
     color:#175369 ;
+}
+
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);     /* background-image is pseudo css set colour behind text */
+    border: none;
+    border-radius: 10px;
+    font-weight:bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.joinBtn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+#textarea {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #a5ffdd 40%, #9cfff2);   
+      /* background-image is pseudo css set colour behind text */
+    border: none;
+    border-radius: 10px;
+    font-weight:bolder;
+    color: rgb(194, 63, 80);
+    cursor: pointer;
+}
+#textarea::placeholder{
+    color: #000000; 
+    }
+#textarea:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+.write {
+    font-size:xx-large;
+
 }
